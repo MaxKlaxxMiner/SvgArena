@@ -1,0 +1,54 @@
+﻿
+:root
+{
+  --color-stroke: #048;
+  --color-fill: #8cf;
+  --color-bg: #222;
+  --color-svg-bg: #fff;
+  --color-font: #eee;
+}
+
+body
+{
+  background: var(--color-bg);
+}
+
+#txt-container
+{
+  margin: 0;
+  padding: 26px;
+  height: 50vh;
+}
+
+#txt
+{
+  width: 100%;
+  height: 100%;
+  font-family: Consolas, 'Lucida Console', monospace;
+  font-size: 14px;
+  color: var(--color-font);
+  background: var(--color-bg);
+}
+
+#svg-container
+{
+  padding: 26px;
+}
+
+#preview
+{
+  margin: 0;
+  display: inline-block;
+}
+
+svg
+{
+  color: var(--color-stroke);
+  fill: var(--color-fill);
+  background: var(--color-svg-bg);
+
+  display: block;
+  box-sizing: content-box;
+  float: left;
+  border-left: 10px solid var(--color-bg);
+}

@@ -46,8 +46,8 @@
   <ItemGroup>
     <Content Include="css\normalize.css" />
     <Content Include="index.html" />
-    <Content Include="ts\test.js">
-      <DependentUpon>test.ts</DependentUpon>
+    <Content Include="ts\svg-updater.js">
+      <DependentUpon>svg-updater.ts</DependentUpon>
     </Content>
     <Content Include="Web.config" />
   </ItemGroup>
@@ -56,8 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="tsconfig.json" />
-    <Content Include="ts\test.js.map">
-      <DependentUpon>test.ts</DependentUpon>
+    <Content Include="css\css.css" />
+    <Content Include="ts\svg-updater.js.map">
+      <DependentUpon>svg-updater.ts</DependentUpon>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -68,10 +69,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <TypeScriptCompile Include="ts\test.ts" />
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+    <TypeScriptCompile Include="ts\svg-updater.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
