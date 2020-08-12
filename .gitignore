@@ -2,3 +2,5 @@
 *.user
 obj
 bin
+*.map
+*.min.js
