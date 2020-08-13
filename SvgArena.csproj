@@ -45,6 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="css\normalize.css" />
+    <Content Include="pathtool.html" />
     <Content Include="index.html" />
     <Content Include="ts\svg-updater.js">
       <DependentUpon>svg-updater.ts</DependentUpon>
@@ -72,6 +73,7 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="ts\svg-paths.ts" />
     <TypeScriptCompile Include="ts\svg-updater.ts" />
   </ItemGroup>
   <PropertyGroup>

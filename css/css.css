@@ -52,3 +52,13 @@ svg
   float: left;
   border-left: 10px solid var(--color-bg);
 }
+
+table
+{
+  width: 100%;
+}
+
+.col50
+{
+  width: 50%;
+}
