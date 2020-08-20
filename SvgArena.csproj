@@ -45,8 +45,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="css\normalize.css" />
+    <Content Include="img\test-a.png" />
     <Content Include="pathtool.html" />
     <Content Include="index.html" />
+    <Content Include="ts\svg-paths.js">
+      <DependentUpon>svg-paths.ts</DependentUpon>
+    </Content>
     <Content Include="ts\svg-updater.js">
       <DependentUpon>svg-updater.ts</DependentUpon>
     </Content>
@@ -60,6 +64,9 @@
     <Content Include="css\css.css" />
     <Content Include="ts\svg-updater.js.map">
       <DependentUpon>svg-updater.ts</DependentUpon>
+    </Content>
+    <Content Include="ts\svg-paths.js.map">
+      <DependentUpon>svg-paths.ts</DependentUpon>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
