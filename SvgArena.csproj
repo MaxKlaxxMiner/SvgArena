@@ -48,6 +48,9 @@
     <Content Include="img\test-a.png" />
     <Content Include="pathtool.html" />
     <Content Include="index.html" />
+    <Content Include="ts\interfaces.js">
+      <DependentUpon>interfaces.ts</DependentUpon>
+    </Content>
     <Content Include="ts\svg-paths.js">
       <DependentUpon>svg-paths.ts</DependentUpon>
     </Content>
@@ -68,6 +71,9 @@
     <Content Include="ts\svg-paths.js.map">
       <DependentUpon>svg-paths.ts</DependentUpon>
     </Content>
+    <Content Include="ts\interfaces.js.map">
+      <DependentUpon>interfaces.ts</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -80,6 +86,7 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="ts\interfaces.ts" />
     <TypeScriptCompile Include="ts\svg-paths.ts" />
     <TypeScriptCompile Include="ts\svg-updater.ts" />
   </ItemGroup>
